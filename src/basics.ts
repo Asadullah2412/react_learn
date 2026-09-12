@@ -39,3 +39,14 @@ console.log(currentStatus);
 
 let cancelledStatus: Status = Status.Cancelled;
 console.log(cancelledStatus);
+
+
+// literal types
+
+type DiceRoll = 1 | 2 | 3 | 4 | 5 | 6;
+
+function rollDice(): DiceRoll {
+    return 4;
+}
+
+console.log(rollDice());

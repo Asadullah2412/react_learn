@@ -17,3 +17,25 @@ console.log(greeting)
 
 // let keyword allows you to change its value but const doent allow you to alter
 
+
+// 2. Data types
+
+// array
+
+const arr: (string | number)[] = ['lala', 1, 'mama'];
+console.log(arr)
+
+
+
+enum Status {
+    Active = 1,
+    Inactive = "INACTIVE",
+    Pending = 2,
+    Cancelled = "CANCELLED"
+}
+
+let currentStatus: Status = Status.Active;
+console.log(currentStatus);
+
+let cancelledStatus: Status = Status.Cancelled;
+console.log(cancelledStatus);

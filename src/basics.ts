@@ -50,3 +50,4 @@ function rollDice(): DiceRoll {
 }
 
 console.log(rollDice());
+
